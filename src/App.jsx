@@ -64,7 +64,7 @@ const addToCock = item=>{
         <div className="right-bar flex gap-x-4  justify-between items-center">
             <form className='bg-[#150b2b0d] rounded-[50px] text-[#150b2bb3] gap-x-3  flex justify-between py-4 px-7 items-center'>
               <label className='text-4 font-normal' htmlFor="search"><FaSearch ></FaSearch></label>
-              <input className=' rounded-xl text-4 font-normal bg-[#150b2b0d] inline-block outline-0'  type="search" name="" id="search" placeholder='search' />
+              <input className=' rounded-xl text-4 font-normal bg-transparent inline-block outline-none border-none'  type="search" name="" id="search" placeholder='search' />
             </form>
             <a href="#" className='text-[#150b2bb3] flex justify-center items-center bg-[#0BE58A] text-[24px] w-12 h-12 p-2 rounded-full'><IoIosContact ></IoIosContact></a>
         </div>
