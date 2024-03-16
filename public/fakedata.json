@@ -1,0 +1,57 @@
+[
+    {
+      "image": "https://i.ibb.co/Zf3FyNb/1-1.jpg",
+      "id": "1",
+      "name": "Savory Stuffed Mushrooms",
+      "description": "Delicious mushrooms stuffed with a savory mixture of cheese and herbs.",
+      "preparingTime": 30 ,
+      "calories": 200 ,
+      "ingredients":["5 Button mushrooms"," 2Cream cheese","Parmesan cheese","500g Garlic powder","Onion powder","Fresh parsley"]
+    },
+    {
+      "image": "https://i.ibb.co/2jmnG56/2-2.jpg",
+      "id": "2",
+      "name": "Zesty Lemon Chicken",
+      "description": "Tender chicken breast marinated in zesty lemon sauce, perfect for a refreshing dinner.",
+      "preparingTime": 45 ,
+      "calories": 300 ,
+      "ingredients":["Chicken breast","100g Lemon juice","50g Olive oil","Garlic cloves","200g Onion powder","Dried oregano"]
+    },
+    {
+      "image": "https://i.ibb.co/mF01YLy/3.webp",
+      "id": "3",
+      "name": "Creamy Tomato Basil Pasta",
+      "description": "Creamy pasta dish with fresh tomatoes and basil, a comforting classic.",
+      "preparingTime": 25 ,
+      "calories": 350 ,
+      "ingredients":["200g Penne pasta","5 Tomatoes","Heavy cream","Fresh basil leaves","Garlic","Parmesan cheese"]
+    },
+    {
+      "image": "https://i.ibb.co/gb839ZQ/4.jpg",
+      "id": "4",
+      "name": "Spicy Shrimp Tacos",
+      "description": "Fiery shrimp tacos with a kick of spice, topped with fresh salsa and avocado.",
+      "preparingTime": 35 ,
+      "calories": 250 ,
+      "ingredients":["2 Shrimp","500g Chili powder","4 Cumin","Paprika","200g Garlic powder","Lime juice"]
+    },
+    {
+      "image": "https://i.ibb.co/yPVYPzV/5.jpg",
+      "id": "5",
+      "name": "Mouthwatering Beef Burgers",
+      "description": "Juicy beef burgers grilled to perfection, served with caramelized onions and melted cheese.",
+      "preparingTime": 40 ,
+      "calories": 400,
+      "ingredients":["Ground beef","3 Hamburger buns","6 Onion","1 Worcestershire sauce","Salt","Cheddar cheese"]
+    },
+    {
+      "image": "https://i.ibb.co/g6MLGkp/6.jpg",
+      "id": "6",
+      "name": "Fresh Berry Salad",
+      "description": "Refreshing salad with a mix of fresh berries, greens, and a tangy vinaigrette.",
+      "preparingTime":20,
+      "calories":150,
+      "ingredients":["5 Mixed greens","3 Strawberries","6 Blueberries","1 Balsamic vinegar","Olive oil","Honey"]
+    }
+  ]
+  
