@@ -73,7 +73,7 @@ const addToCock = item=>{
   <div className="banner mx-auto max-w-[1320px]">
     <div className="container flex justify-center items-center flex-col max-w-[1320px] bg-cover bg-center bg-[url('https://i.ibb.co/hB8hz3w/banner-1.jpg')] h-[600px] rounded-[20px]">
       <h1 className='text-[52px] text-white font-bold leading-[76px] max-w-[897px] text-center'>Discover an exceptional cooking class tailored for you!</h1>
-      <p className='text-[18px] font-normal leading-7 max-w-[933px] text-center'>Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+      <p className='text-[18px] font-normal leading-7 max-w-[933px] text-center'>Long-time solar cook, Susan Kinne, shares her favorite cookie recipe that meets a variety of special dietary needs and restrictions.</p>
       <div className="buttons mt-10">
       <a href="#" className='text-[20px] font-semibold leading-6 text-[#150b2bb3] bg-[#0BE58A] py-5 px-8 rounded-[50px] inline-block'>Explore Now</a> 
       <a href="#" className='text-[20px] font-semibold leading-6 text-white  py-5 px-8 rounded-[50px] inline-block border-current border-2 ml-7' >Our Feedback</a>
@@ -87,14 +87,14 @@ const addToCock = item=>{
     <div className="container ">
       <div className="section-title">
         <h2 className='text-4xl text-[#150b2b] font-semibold leading-[50px]  text-center'>Our Recipes</h2>
-        <p className='text-[16px] font-normal leading-6 text-center max-w-[823px] mx-auto mt-6 '>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+        <p className='text-[16px] font-normal leading-6 text-center max-w-[823px] mx-auto mt-6 '>A recipe is simply defined as a set of instructions with a list of ingredients used to prepare a particular food, dish or drink. People use recipes to replicate foods they enjoy that they otherwise do not know how to make. </p>
       </div>
       <div className='mt-[48px] flex justify-between gap-x-4'>
-          <div className="main ">
+          <div className="main w-1/2 md:w-2/3">
             <Products addToCart={addToCart}></Products>
 
             </div>
-            <div className="sidebar">
+            <div className="sidebar w-1/2 md:w-1/3">
               <Carts cartItems={cartItems} addToCock={addToCock} cock={cock}></Carts>
 
             </div>
