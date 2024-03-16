@@ -16,14 +16,16 @@ function App() {
 const [cartItems,setCartItems]= useState([])
 const [cock,setcok]= useState([])
 
-const addToCart = item =>{
+const addToCart =item =>{
   
   const alredyExists = cartItems.find(c=>c.id==item.id);
   if(!alredyExists){
-    setCartItems([...cartItems,item]) 
     toast.success("recipes Want to cook added !")
+      setCartItems([...cartItems,item]) 
+      return
+    
   }else{
-    toast.error("recipes alredey Want to cook !")
+    return  toast.error("recipes alredey Want to cook !")
   }
   
 }
@@ -31,18 +33,19 @@ const addToCock = item=>{
   const time =cock.reduce((p,c)=>p+c.preparingTime,0);
     totaltime =(time + item.preparingTime)
  const calories =cock.reduce((p,c)=>p+c.calories,0);
-    totalcalories = (calories + item.calories )
+ totalcalories = (calories + item.calories )
  
   setcok([...cock,item])
   const updatedCartItems = cartItems.filter(p => p.id !== item.id);
     if(updatedCartItems){
-      setCartItems(updatedCartItems)
       toast.success("recipes Currently cooking added !")
+       setCartItems(updatedCartItems)
+       return 
     }else{
-      toast.error("recipes alredey in Currently cooking !")
+      return   toast.error("recipes alredey in Currently cooking !")
     }
   
-  return totaltime
+
 }
 
 

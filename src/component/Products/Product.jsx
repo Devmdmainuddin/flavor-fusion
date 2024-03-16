@@ -14,7 +14,7 @@ const Product = ({products,addToCart}) => {
             <div className='flex justify-between items-center mt-10'><p className='flex items-center text-[16px] text-[#282828cc] font-normal leading-5 gap-x-3'><IoTimeOutline></IoTimeOutline>{preparingTime} minutes</p>
                 <p className='flex items-center text-[16px] text-[#282828cc] font-normal leading-5 gap-x-3'><RiFireLine></RiFireLine>{calories} calories</p>
             </div>
-            <a href="#" onClick={()=>addToCart(products)} className='text-[20px] mt-6 font-semibold leading-6 text-[#150b2bb3] bg-[#0BE58A] py-3 px-6 rounded-[50px] inline-block'>want to Cock</a> 
+            <button href="#" onClick={()=>addToCart(products)} className='text-[20px] mt-6 font-semibold leading-6 text-[#150b2bb3] bg-[#0BE58A] py-3 px-6 rounded-[50px] inline-block'>want to Cock</button> 
         </div>
     );
 };

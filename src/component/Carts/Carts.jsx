@@ -27,7 +27,7 @@ const Carts = ({cartItems,addToCock,cock}) => {
                         <td>{c.name}</td>
                         <td>{c.preparingTime} minutes</td>
                         <td>{c.calories} calories</td>
-                        <td><a href="#" onClick={()=>addToCock(c)} className='text-[20px] mt-6 font-semibold leading-6 text-[#150b2bb3] bg-[#0BE58A] py-3 px-6 rounded-[50px] inline-block'>Preparing</a> </td>
+                        <td><button href="#" onClick={()=>addToCock(c)} className='text-[20px] mt-6 font-semibold leading-6 text-[#150b2bb3] bg-[#0BE58A] py-3 px-6 rounded-[50px] inline-block'>Preparing</button> </td>
                     </tr>  )}
                
                     
