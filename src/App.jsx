@@ -94,7 +94,7 @@ const addToCock = item=>{
             <Products addToCart={addToCart}></Products>
 
             </div>
-            <div className="sidebar w-1/2 md:w-1/3">
+            <div className="sidebar w-1/2 ">
               <Carts cartItems={cartItems} addToCock={addToCock} cock={cock}></Carts>
 
             </div>

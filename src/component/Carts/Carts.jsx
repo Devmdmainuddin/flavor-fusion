@@ -5,7 +5,7 @@ import Cart from './Cart';
 
 const Carts = ({cartItems,addToCock,cock}) => {
     return (
-        <div className='border-[#d0cdcd] border-2 rounded-[16px]'>
+        <div className='border-[#d0cdcd] border-2 rounded-[16px] w-full'>
             <h2 className='text-2xl text-[#150b2b] font-semibold leading-[30px] mt-8 text-center'>Want to cook:{cartItems.length} </h2>
             <div className='h-[1px] w-2/3 mx-auto bg-slate-200 mt-4'></div>
             <div>
